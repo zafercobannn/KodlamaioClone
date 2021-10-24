@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +8,11 @@
     <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="kodlamaStyle.css">
 </head>
 <body>
     <!--Navbar Start-->
-    <div style="background-color: #f5b770;">
+    <div style="background-color: #fb8f81;">
         <div class="container">
             <div class="row">
                 <nav class="navbar navbar-expand-lg navbar-light">
@@ -23,16 +24,16 @@
                       <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                           <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Kampa Hazırlık</a>
+                            <a class="nav-link text-light" aria-current="page" href="#">Kampa Hazırlık</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Sık Sorulan Sorular</a>
+                            <a class="nav-link text-light" href="#">Sık Sorulan Sorular</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Giriş Yap</a>
+                            <a class="nav-link text-light" href="#">Giriş Yap</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Kayıt ol</a>
+                            <a class="nav-link text-light" href="#">Kayıt ol</a>
                           </li>
                         </ul>
                       </div>
@@ -53,10 +54,10 @@
               <h1 class="btn btn-light rounded-pill">Eğitmen : Engin Demirog</h1>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-3">
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Kurs Bul" aria-label="Search">
-              <button class="btn btn-outline-light bg-light text-dark" type="submit">Search</button>
+              <button class="btn btn-outline-light bg-light text-dark" type="submit">Bul</button>
             </form>
           </div>
         </div>
@@ -64,8 +65,149 @@
     </div>
     <!--Category-Teacher-Search Bar End-->
 
-    
+    <!--Course-Cards-Start-->
+    <div>
+      <div class="container">
+        <div class="row">
+          <div class="card col-lg-12 mt-4" style="width: 25rem; border-radius: 9px;">
+            <img src="images/CSHARPkampı - foto.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Yazılım Geliştici Yetiştirme Kampı C# + Angular</h5>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div>
+              <div style="margin-left: 10px; margin-bottom: 10px;">
+                <img src="images/engin-demirog-foto.jpg" alt="" style="border-radius: 50%;">
+                <span> Engin Demiroğ</span>
+                <span style="margin-left: 90px;">100% Tamamlandı</span>
+              </div>  
+              <div style="margin-left: 270px; margin-bottom: 10px;">
+                
+              </div>
+            </div>
+          </div>
 
+          <div class="card col-lg-12 ms-lg-4 mt-4" style="width: 25rem; border-radius: 9px;">
+            <img src="images/javakamp-foto.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Yazılım Geliştirici Yetiştirme Kampı (JAVA + REACT)</h5>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div>
+              <div style="margin-left: 10px; margin-bottom: 10px;">
+                <img src="images/engin-demirog-foto.jpg" alt="" style="border-radius: 50%;">
+                <span> Engin Demiroğ</span>
+                <span style="margin-left: 90px;">100% Tamamlandı</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card col-lg-12 ms-lg-4 mt-4" style="width: 25rem; border-radius: 9px;">
+            <img src="images/jskamp-foto.jpg" class="card-img-top" alt="..." style="width: auto; height: 210px;">
+            <div class="card-body">
+              <h5 class="card-title">Yazılım Geliştirici Yetiştirme Kampı (JavaScript)</h5>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div>
+              <div style="margin-left: 10px; margin-bottom: 10px;">
+                <img src="images/engin-demirog-foto.jpg" alt="" style="border-radius: 50%;">
+                <span> Engin Demiroğ</span>
+                <span style="margin-left: 90px;">75% Tamamlandı</span>
+              </div>  
+              <div style="margin-left: 270px; margin-bottom: 10px;">
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="card col-lg-12 mt-4" style="width: 25rem; margin-top: 10px; border-radius: 9px; ">
+            <img src="images/programlamaya-baslangıc-foto.jpg" class="card-img-top" alt="..." style="width: auto; height: 210px;">
+            <div class="card-body">
+              <h5 class="card-title">Programlamaya Giriş için Temel Kurs</h5>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div>
+                <div style="margin-left: 10px; margin-bottom: 10px;">
+                  <img src="images/engin-demirog-foto.jpg" alt="" style="border-radius: 50%;">
+                  <span> Engin Demiroğ</span>
+                  <span style="margin-left: 90px;">100% Tamamlandı</span>
+                </div>  
+                <div style="margin-left: 270px; margin-bottom: 10px;">
+                  
+                </div>
+            </div>
+          </div>
+
+          <div class="card col-lg-12 ms-lg-4 mt-4" style="width: 25rem; margin-top: 10px; border-radius: 9px; ">
+            <img src="images/Python.png" class="card-img-top" alt="..." style="width: auto; height: 210px;">
+            <div class="card-body">
+              <h5 class="card-title">Yazılım Geliştirici Yetiştirme Kampı Python-Django</h5>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div>
+                <div style="margin-left: 10px; margin-bottom: 10px;">
+                  <img src="images/engin-demirog-foto.jpg" alt="" style="border-radius: 50%;">
+                  <span> Engin Demiroğ</span>
+                  <span style="margin-left: 90px;">0% Tamamlandı</span>
+                </div>  
+                <div style="margin-left: 270px; margin-bottom: 10px;">
+                  
+                </div>
+            </div>
+          </div>
+
+          <div class="card col-lg-12 ms-lg-4 mt-4" style="width: 25rem; margin-top: 10px;  border-radius: 9px;">
+            <img src="images/nodejs-foto.png" class="card-img-top" alt="..." style="width: auto; height: 210px;">
+            <div class="card-body">
+              <h5 class="card-title">Yazılım Geliştirici Yetiştirme Kampı (NodeJS)</h5>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div>
+                <div style="margin-left: 10px; margin-bottom: 10px;">
+                  <img src="images/engin-demirog-foto.jpg" alt="" style="border-radius: 50%;">
+                  <span> Engin Demiroğ</span>
+                  <span style="margin-left: 90px;">0% Tamamlandı</span>
+                </div>  
+                <div style="margin-left: 270px; margin-bottom: 10px;">
+                  
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--Course-Cards-End-->
+
+    <!--Footer-Start-->
+    <footer class="footer-e">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <h5 class="footer-tags">© Kodlama.io 2021</h5>
+          </div>
+          <div class="col-8">
+            <h5 class="footer-tags">Kullanım Koşulları</h5>
+            <h5 class="footer-tags">Gizlilik Politikası</h5>
+            <h5 class="footer-tags">Bana Ulaş</h5>
+          </div>
+        </div>
+      </div>
+          
+    </footer>
+    <!--Footer-End-->
 
 
 
